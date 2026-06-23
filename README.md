@@ -1,1 +1,1 @@
-# daily-practice
+Day 1
