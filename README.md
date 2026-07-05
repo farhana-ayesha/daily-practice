@@ -1,1 +1,1 @@
-Day 1
+daily practice with HTML CSS and JavaScript 
