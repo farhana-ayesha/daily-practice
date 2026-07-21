@@ -1,4 +1,5 @@
 আজকের প্র্যাকটিস 
+
 1. ১ থেকে ২০ পর্যন্ত সংখ্যা প্রিন্ট করো।
 2. ২০ থেকে ১ পর্যন্ত উল্টো প্রিন্ট করো।
 3. ১ থেকে ২০ পর্যন্ত সব জোড় সংখ্যা প্রিন্ট করো।
@@ -10,10 +11,12 @@
 9. একই Array for...of দিয়ে প্রিন্ট করো।
 10. break এবং continue ব্যবহার করে একটি করে উদাহরণ তৈরি করো।
 
+
 1. 1 theky 20 print
 for(let i=1; i<=20; i++){
 console.log(i);
 }
+
 2. 1 theky 20 Ulta print
 for(let i=20; i>=1; i--){
 console.log(i);
@@ -26,6 +29,7 @@ console.log(i);
           }
 
 4. 1 theky 20 porjonto Odd number
+
 for(let i=1; i<=20; i++){
 if(i%2!==0)
 console.log(i)
