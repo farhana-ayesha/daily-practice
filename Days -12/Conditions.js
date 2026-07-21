@@ -1,4 +1,3 @@
-
 1. Leap Year Checker
 
 let year = 2024;
@@ -8,7 +7,6 @@ if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
 } else {
     console.log("Not a Leap Year");
 }
-
 
 ---
 
@@ -29,8 +27,6 @@ if (marks >= 80) {
 } else {
     console.log("Fail");
 }
-
-
 ---
 
 3. Login System
@@ -45,8 +41,6 @@ if (username === "admin" && password === "12345") {
 } else {
     console.log("User Not Found");
 }
-
-
 ---
 
 4. Ticket Price
@@ -62,8 +56,6 @@ if (age < 5) {
 } else {
     console.log("Senior Discount: 150 TK");
 }
-
-
 ---
 
 5. Number Analyzer
@@ -81,5 +73,5 @@ if (num === 0) {
 } else {
     console.log("Negative Odd");
 }
-
+---
 
