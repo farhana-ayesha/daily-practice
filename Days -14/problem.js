@@ -1,4 +1,4 @@
-
+Problem 1: Count Negative Numbers
 
 // Input: an array of numbers
 // Output: how many numbers are negative
