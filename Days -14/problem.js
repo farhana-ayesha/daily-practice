@@ -54,3 +54,20 @@ function sumObjectValues(obj) {
 }
 
 console.log(sumObjectValues({ math: 80, english: 70, science: 90 })); // 240
+
+___________________________________
+
+// Input: an object, a value to search for
+// Output: the key that has that value
+// Returns: a string (or undefined if not found)
+
+function findKeyByValue(obj, value) {
+  for (let key in obj) {
+    if (obj[key] === value) {
+      return key;
+    }
+  }
+  return undefined;
+}
+
+console.log(findKeyByValue({ math: 80, english: 70, science: 90 }, 70)); // "english"
