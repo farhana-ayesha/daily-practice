@@ -15,6 +15,7 @@ console.log(keepNumbersAboveTen([5, 12, 8, 20, 3, 15]));
 // Expected: [12, 20, 15]
 ___________________________
 
+Practice 2: listValues
 
 function listValues(obj) {
   let values = [];
