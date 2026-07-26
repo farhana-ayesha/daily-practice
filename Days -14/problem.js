@@ -36,3 +36,21 @@ function wordsStartingWith(words, letter) {
 
 console.log(wordsStartingWith(["apple", "banana", "avocado", "grape"], "a"));
 // ["apple", "avocado"]
+
+____________________
+
+
+
+// Input: an object where all values are numbers
+// Output: sum of all values
+// Returns: a number
+
+function sumObjectValues(obj) {
+  let total = 0;
+  for (let key in obj) {
+    total += obj[key];
+  }
+  return total;
+}
+
+console.log(sumObjectValues({ math: 80, english: 70, science: 90 })); // 240
