@@ -15,3 +15,23 @@ function countNegatives(numbers) {
 }
 
 console.log(countNegatives([3, -5, 8, -1, -9])); // 3
+
+------------+-----------------------+++----+
+
+
+  // Input: an array of words, a starting letter
+// Output: array of words that start with that letter
+// Returns: an array
+
+function wordsStartingWith(words, letter) {
+  let result = [];
+  for (let i = 0; i < words.length; i++) {
+    if (words[i][0] === letter) {
+      result.push(words[i]);
+    }
+  }
+  return result;
+}
+
+console.log(wordsStartingWith(["apple", "banana", "avocado", "grape"], "a"));
+// ["apple", "avocado"]
