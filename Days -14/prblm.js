@@ -1,3 +1,5 @@
+Practice 1: keepNumbersAboveTen
+
 // Input: an array of numbers
 // Output: array with only the numbers greater than 10
 // Returns: an array
