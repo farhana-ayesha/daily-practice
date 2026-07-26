@@ -13,3 +13,19 @@ function keepNumbersAboveTen(numbers) {
 
 console.log(keepNumbersAboveTen([5, 12, 8, 20, 3, 15])); 
 // Expected: [12, 20, 15]
+___________________________
+
+
+function listValues(obj) {
+  let values = [];
+  for (let key in obj) {
+    values.push(obj[key]);
+  }
+  return values;
+}
+
+console.log(listValues({ name: "Sam", age: 25, city: "Dhaka" }));
+// ["Sam", 25, "Dhaka"]
+
+
+
