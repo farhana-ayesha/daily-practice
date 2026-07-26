@@ -18,6 +18,7 @@ console.log(countNegatives([3, -5, 8, -1, -9])); // 3
 
 ------------+-----------------------+++----+
 
+  Problem 2: Keep Only Words Starting With a Letter
 
   // Input: an array of words, a starting letter
 // Output: array of words that start with that letter
@@ -27,7 +28,7 @@ function wordsStartingWith(words, letter) {
   let result = [];
   for (let i = 0; i < words.length; i++) {
     if (words[i][0] === letter) {
-      result.push(words[i]);
+      result.push(words.[i]);
     }
   }
   return result;
