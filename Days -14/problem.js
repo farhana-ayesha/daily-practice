@@ -39,7 +39,7 @@ console.log(wordsStartingWith(["apple", "banana", "avocado", "grape"], "a"));
 
 ____________________
 
-
+Problem 3: Object Values Sum
 
 // Input: an object where all values are numbers
 // Output: sum of all values
