@@ -30,4 +30,21 @@ let unique = [...new Set(numbers)];
 console.log(unique.length); // 4 
 console.log(unique[2]);     // 5 
 
-  
+  ________________________
+
+
+
+let numbers = [9, 4, 9, 1, 4, 7, 1];
+
+let unique = [...new Set(numbers)];
+
+console.log(unique);
+console.log(unique.length);
+console.log(unique[0]);
+console.log(unique[3]);
+
+Output:
+[9,4,1,7];
+4
+9
+7
