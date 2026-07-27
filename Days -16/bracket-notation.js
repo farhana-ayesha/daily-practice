@@ -45,3 +45,25 @@ undefined
 কারণ JavaScript এখানে "key" নামে property খুঁজবে, "age" না।
 
 */
+
+let student = {
+name: "Ayesha",
+subject: "Math",
+marks: 95
+};
+
+console.log(student["name"]); // Ayesha
+console.log(student["marks"]); //95
+
+
+---
+
+let student = {
+name: "Ayesha",
+subject: "Math",
+marks: 95
+};
+
+let key = "subject";
+
+console.log(student[key]); // Math
