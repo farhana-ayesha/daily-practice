@@ -5,3 +5,17 @@ let person = {
 };
 
 console.log(Object.values(person));
+
+output is 
+["Farhana", 29, "Khulna"]
+----------------------------
+    let car = {
+    brand: "Toyota",
+    color: "White",
+    year: 2024
+};
+
+console.log(Object.values(car));
+
+output is 
+["Toyota", "White", 2024]
