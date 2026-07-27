@@ -5,3 +5,6 @@ let car = {
 };
 
 console.log(Object.keys(car));
+
+output is
+["brand", "color", "year"]
