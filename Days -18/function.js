@@ -52,7 +52,7 @@ console.log(getGrade(85)); // A+
 console.log(getGrade(45)); // B
 console.log(getGrade(30)); // Fail
 -----------------------------------------
-//Array-এর সাথে Function
+  
 //Array-এর মধ্যে সবচেয়ে বড় সংখ্যা
 
  function findLargest(numbers) {
@@ -68,5 +68,17 @@ console.log(getGrade(30)); // Fail
 }
 
 console.log(findLargest([4, 9, 2, 7])); // 9 
+--------------------------
+
+//  Arrow Function-এ Convert
+
+  const square = (num) => {
+  return num * num;
+};
+
+// আরো short vabe (এক লাইনে return hole {} ar return lage na):
+const square2 = (num) => num * num;
+
+console.log(square(5)); // 25
   
   
