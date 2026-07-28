@@ -80,5 +80,22 @@ console.log(findLargest([4, 9, 2, 7])); // 9
 const square2 = (num) => num * num;
 
 console.log(square(5)); // 25
+
+-------------------------------------
+  
+   // Callback Function
+
+  function processOrder(item, callback) {
+  console.log("Processing " + item + "...");
+  callback();
+}
+
+processOrder("Laptop", function() {
+  console.log("Order Complete!");
+});
+
+// Output:
+// Processing Laptop...
+// Order Complete!
   
   
