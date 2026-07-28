@@ -23,7 +23,8 @@ greetUser("Farah"); // Hello, Farah!
 console.log(checkEven(7));  // Odd
 console.log(checkEven(10)); // Even
 ---------------------------------------
-   //Default Parameter
+  
+  //Default Parameter
 
   function calculatePrice(price, discount = 10) {
   let finalPrice = price - (price * discount / 100);
@@ -32,3 +33,24 @@ console.log(checkEven(10)); // Even
 
 console.log(calculatePrice(1000));     // discount na dile 10% dhore: 900
 console.log(calculatePrice(1000, 20)); // 20% discount: 800
+------------------------------------------------------------------
+    //Grade Function
+  function getGrade(marks) {
+  if (marks >= 80) {
+    return "A+";
+  } else if (marks >= 60) {
+    return "A";
+  } else if (marks >= 40) {
+    return "B";
+  } else {
+    return "Fail";
+  }
+}
+
+console.log(getGrade(85)); // A+
+console.log(getGrade(45)); // B
+console.log(getGrade(30)); // Fail
+-----------------------------------------
+
+  
+  
