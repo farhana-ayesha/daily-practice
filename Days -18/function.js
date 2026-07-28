@@ -97,5 +97,31 @@ processOrder("Laptop", function() {
 // Output:
 // Processing Laptop...
 // Order Complete!
+
+//note:callback হলো একটা function যেটা আরেকটা function-এর ভেতরে parameter হিসেবে pass kora hoyeche। ভেতরে গিয়ে সেটাকে callback() লিখে call kora hoy।
+
+-------------------------------------------
+
+  
+//Combination (Total + Discount)
+
+  function calculateTotal(items) {
+  let total = 0;
+
+  for (let i = 0; i < items.length; i++) {
+    total = total + items[i];
+  }
+
+  if (total > 300) {
+    total = total - (total * 10 / 100); // 10% discount
+  }
+
+  return total;
+}
+
+console.log(calculateTotal([100, 250, 75])); // 425 total → discount → 382.5
+console.log(calculateTotal([50, 100]));      // 150 total → discount nai → 150
+
+
   
   
