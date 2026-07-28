@@ -13,5 +13,12 @@ sayHello(); // call korle output ashbe
 }
 
 greetUser("Farah"); // Hello, Farah!
+------------------------------------------
+  //Even/Odd Check
 
+  function checkEven(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
 
+console.log(checkEven(7));  // Odd
+console.log(checkEven(10)); // Even
