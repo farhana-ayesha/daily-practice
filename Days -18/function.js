@@ -34,6 +34,7 @@ console.log(checkEven(10)); // Even
 console.log(calculatePrice(1000));     // discount na dile 10% dhore: 900
 console.log(calculatePrice(1000, 20)); // 20% discount: 800
 ------------------------------------------------------------------
+ // Multiple Return Path
     //Grade Function
   function getGrade(marks) {
   if (marks >= 80) {
@@ -51,6 +52,21 @@ console.log(getGrade(85)); // A+
 console.log(getGrade(45)); // B
 console.log(getGrade(30)); // Fail
 -----------------------------------------
+//Array-এর সাথে Function
+//Array-এর মধ্যে সবচেয়ে বড় সংখ্যা
 
+ function findLargest(numbers) {
+  let largest = numbers[0]; // প্রথমটাকে ধরে নিলাম largest
+
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+      largest = numbers[i]; // বড় পেলে update kora
+    }
+  }
+
+  return largest;
+}
+
+console.log(findLargest([4, 9, 2, 7])); // 9 
   
   
