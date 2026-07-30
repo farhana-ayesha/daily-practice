@@ -1,3 +1,6 @@
+
+//3 problem solving 
+
 let student = {
 name: "Farhana",
 age: 29,
