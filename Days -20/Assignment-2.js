@@ -1,4 +1,4 @@
-//5 problem solving 
+//5 problem solved 
 
 //Problem-01: Match Winner
 function matchWinner(teamAGoals,teamBGoals){
