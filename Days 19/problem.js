@@ -1,4 +1,4 @@
-// Function, Arrow Function, Loop, Array, Object—সবগুলোর use kore Problem Solving improve হবে।
+// Function, Arrow Function, Loop, Array, Object—সবগুলোর use kore Problem Solving improve hobe
 
 
 // Problem 1: Array-এর সব Number Double করো
