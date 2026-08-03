@@ -43,5 +43,21 @@ Output:
 Even
 Odd
 
+-------------
+  
 
+১. Square Number
+
+const square = (number) => {
+  return number * number;
+};
+
+console.log(square(5));
+
+Output:
+
+25
+
+
+---
 
