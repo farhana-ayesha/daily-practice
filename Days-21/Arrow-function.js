@@ -22,3 +22,26 @@ console.log(add(10, 20));
 
 
 ---
+
+  Problem 2 Solution
+
+সংখ্যা জোড় নাকি বিজোড় চেক করো।
+
+const checkEvenOdd = (number) => {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+};
+
+console.log(checkEvenOdd(8));
+console.log(checkEvenOdd(11));
+
+Output:
+
+Even
+Odd
+
+
+
