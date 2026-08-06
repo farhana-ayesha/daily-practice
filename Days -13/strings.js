@@ -11,7 +11,7 @@ console.log(name.toUpperCase());
 const text ="HELLO"
 console.log(text.toLowerCase());
 
-৪. "I love JavaScript"-এ "Java" আছে কিনা দেখো।
+// "I love JavaScript"-এ "Java" আছে কিনা দেখো।
 const texts = "I love JavaScript";
 console.log(texts.includes("Java"));
 
