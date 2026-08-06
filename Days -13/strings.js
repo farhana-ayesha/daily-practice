@@ -1,4 +1,4 @@
-১. "Programming Hero" এর length ber koro
+//"Programming Hero" এর length ber koro
 
 const name = 'Programming Hero';
 console.log(name.length);
