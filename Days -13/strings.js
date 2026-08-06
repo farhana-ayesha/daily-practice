@@ -15,7 +15,7 @@ console.log(text.toLowerCase());
 const texts = "I love JavaScript";
 console.log(texts.includes("Java"));
 
-৫. "Farhana Ayesha" থেকে "Farhana" অংশ slice() দিয়ে বের করো।
+// "Farhana Ayesha" থেকে "Farhana" অংশ slice() দিয়ে বের করো।
 const name= "Farhana Ayesha";
 console.log(name.slice(0,7));
 
