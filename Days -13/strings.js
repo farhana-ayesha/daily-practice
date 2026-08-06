@@ -7,7 +7,7 @@ console.log(name.length);
 const name= "javascript";
 console.log(name.toUpperCase());
 
-৩. "HELLO" কে ছোট হাতের অক্ষরে প্রিন্ট করো।
+// "HELLO" কে ছোট হাতের অক্ষরে প্রিন্ট করো।
 const text ="HELLO"
 console.log(text.toLowerCase());
 
