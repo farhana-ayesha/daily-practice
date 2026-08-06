@@ -3,7 +3,7 @@
 const name = 'Programming Hero';
 console.log(name.length);
 
-২. "javascript" কে বড় হাতের অক্ষরে প্রিন্ট করো।
+// "javascript" কে বড় হাতের অক্ষরে প্রিন্ট করো।
 const name= "javascript";
 console.log(name.toUpperCase());
 
