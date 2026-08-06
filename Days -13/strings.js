@@ -19,7 +19,7 @@ console.log(texts.includes("Java"));
 const name= "Farhana Ayesha";
 console.log(name.slice(0,7));
 
-৬. " apple,banana,mango " থেকে trim() এবং split() ব্যবহার করে একটি Array তৈরি করো।
+// apple,banana,mango " থেকে trim() এবং split() ব্যবহার করে একটি Array তৈরি করো।
 
 const fruits = " apple, banana, mango ";
 console.log(fruits.trim().split(", "));
